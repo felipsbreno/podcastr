@@ -21,6 +21,59 @@
   resolved "https://registry.yarnpkg.com/@emotion/memoize/-/memoize-0.7.4.tgz#19bf0f5af19149111c40d98bb0cf82119f5d9eeb"
   integrity sha512-Ja/Vfqe3HpuzRsG1oBtWTHk2PGZ7GR+2Vz5iYGelAw8dx32K0y7PjVuxK6z1nMpZOqAFsRUPCkK1YjJ56qJlgw==
 
+"@motionone/animation@^10.15.1":
+  version "10.15.1"
+  resolved "https://registry.yarnpkg.com/@motionone/animation/-/animation-10.15.1.tgz#4a85596c31cbc5100ae8eb8b34c459fb0ccf6807"
+  integrity sha512-mZcJxLjHor+bhcPuIFErMDNyrdb2vJur8lSfMCsuCB4UyV8ILZLvK+t+pg56erv8ud9xQGK/1OGPt10agPrCyQ==
+  dependencies:
+    "@motionone/easing" "^10.15.1"
+    "@motionone/types" "^10.15.1"
+    "@motionone/utils" "^10.15.1"
+    tslib "^2.3.1"
+
+"@motionone/dom@^10.15.3":
+  version "10.15.3"
+  resolved "https://registry.yarnpkg.com/@motionone/dom/-/dom-10.15.3.tgz#afb27270032368a917f1ae8dd87e0069a6a9fe40"
+  integrity sha512-FQ7a2zMBXc1UeU8CG9G3yDpst55fbb0+C9A0VGfwOITitBCzigKZnXRgsRSWWR+FW57GSc13eGQxtYB0lKG0Ng==
+  dependencies:
+    "@motionone/animation" "^10.15.1"
+    "@motionone/generators" "^10.15.1"
+    "@motionone/types" "^10.15.1"
+    "@motionone/utils" "^10.15.1"
+    hey-listen "^1.0.8"
+    tslib "^2.3.1"
+
+"@motionone/easing@^10.15.1":
+  version "10.15.1"
+  resolved "https://registry.yarnpkg.com/@motionone/easing/-/easing-10.15.1.tgz#95cf3adaef34da6deebb83940d8143ede3deb693"
+  integrity sha512-6hIHBSV+ZVehf9dcKZLT7p5PEKHGhDwky2k8RKkmOvUoYP3S+dXsKupyZpqx5apjd9f+php4vXk4LuS+ADsrWw==
+  dependencies:
+    "@motionone/utils" "^10.15.1"
+    tslib "^2.3.1"
+
+"@motionone/generators@^10.15.1":
+  version "10.15.1"
+  resolved "https://registry.yarnpkg.com/@motionone/generators/-/generators-10.15.1.tgz#dc6abb11139d1bafe758a41c134d4c753a9b871c"
+  integrity sha512-67HLsvHJbw6cIbLA/o+gsm7h+6D4Sn7AUrB/GPxvujse1cGZ38F5H7DzoH7PhX+sjvtDnt2IhFYF2Zp1QTMKWQ==
+  dependencies:
+    "@motionone/types" "^10.15.1"
+    "@motionone/utils" "^10.15.1"
+    tslib "^2.3.1"
+
+"@motionone/types@^10.15.1":
+  version "10.15.1"
+  resolved "https://registry.yarnpkg.com/@motionone/types/-/types-10.15.1.tgz#89441b54285012795cbba8612cbaa0fa420db3eb"
+  integrity sha512-iIUd/EgUsRZGrvW0jqdst8st7zKTzS9EsKkP+6c6n4MPZoQHwiHuVtTQLD6Kp0bsBLhNzKIBlHXponn/SDT4hA==
+
+"@motionone/utils@^10.15.1":
+  version "10.15.1"
+  resolved "https://registry.yarnpkg.com/@motionone/utils/-/utils-10.15.1.tgz#6b5f51bde75be88b5411e084310299050368a438"
+  integrity sha512-p0YncgU+iklvYr/Dq4NobTRdAPv9PveRDUXabPEeOjBLSO/1FNB2phNTZxOxpi1/GZwYpAoECEa0Wam+nsmhSw==
+  dependencies:
+    "@motionone/types" "^10.15.1"
+    hey-listen "^1.0.8"
+    tslib "^2.3.1"
+
 "@next/env@12.2.4":
   version "12.2.4"
   resolved "https://registry.yarnpkg.com/@next/env/-/env-12.2.4.tgz#5ba9bed9970be4113773233148b4539691bfc4fe"
@@ -642,25 +695,16 @@ forwarded@~0.1.2:
   resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.1.2.tgz#98c23dab1175657b8c0573e8ceccd91b0ff18c84"
   integrity sha1-mMI9qxF1ZXuMBXPozszZGw/xjIQ=
 
-framer-motion@^5.3.2:
-  version "5.3.2"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-5.3.2.tgz#d749f597d8083a4ae2fba3a2c0821930f2cc7ad4"
-  integrity sha512-39xU+ev4inXRAMb2DtdrMnWEinlMLTsk1lmYKcHmHy2WjwewqN9vL+dzqRuhzoPz3fia4U4x2h2w/bNpgh7egA==
+framer-motion@^8.0.1:
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-8.0.1.tgz#73b3e9b49e11434dfe7ca387e90ca214bc0b6ef9"
+  integrity sha512-rr9Sb97cGM5BWU0jMsmTi9x5w8hF90p6wRUlXto5IFejxMVS8YUxT8Ljjy8RspQKPEGOQUZDIZNvlcLBhs0tMw==
   dependencies:
-    framesync "6.0.1"
+    "@motionone/dom" "^10.15.3"
     hey-listen "^1.0.8"
-    popmotion "11.0.0"
-    style-value-types "5.0.0"
-    tslib "^2.1.0"
+    tslib "2.4.0"
   optionalDependencies:
     "@emotion/is-prop-valid" "^0.8.2"
-
-framesync@6.0.1, framesync@^6.0.1:
-  version "6.0.1"
-  resolved "https://registry.yarnpkg.com/framesync/-/framesync-6.0.1.tgz#5e32fc01f1c42b39c654c35b16440e07a25d6f20"
-  integrity sha512-fUY88kXvGiIItgNC7wcTOl0SNRCVXMKSWW2Yzfmn7EKNc+MpCzcz9DhdHcdjbrtN3c6R4H5dTY2jiCpPdysEjA==
-  dependencies:
-    tslib "^2.1.0"
 
 fresh@0.5.2:
   version "0.5.2"
@@ -1233,16 +1277,6 @@ pluralize@^8.0.0:
   resolved "https://registry.yarnpkg.com/pluralize/-/pluralize-8.0.0.tgz#1a6fa16a38d12a1901e0320fa017051c539ce3b1"
   integrity sha512-Nc3IT5yHzflTfbjgqWcCPpo7DaKy4FnpB0l/zCAW0Tc7jxAiuqSxHasntB3D7887LSrA93kDJ9IXovxJYxyLCA==
 
-popmotion@11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/popmotion/-/popmotion-11.0.0.tgz#910e2e7077d9aeba520db8744d40bb5354992212"
-  integrity sha512-kJDyaG00TtcANP5JZ51od+DCqopxBm2a/Txh3Usu23L9qntjY5wumvcVf578N8qXEHR1a+jx9XCv8zOntdYalQ==
-  dependencies:
-    framesync "^6.0.1"
-    hey-listen "^1.0.8"
-    style-value-types "5.0.0"
-    tslib "^2.1.0"
-
 postcss@8.4.14:
   version "8.4.14"
   resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.4.14.tgz#ee9274d5622b4858c1007a74d76e42e56fd21caf"
@@ -1585,14 +1619,6 @@ strip-json-comments@~2.0.1:
   resolved "https://registry.yarnpkg.com/strip-json-comments/-/strip-json-comments-2.0.1.tgz#3c531942e908c2697c0ec344858c286c7ca0a60a"
   integrity sha1-PFMZQukIwml8DsNEhYwobHygpgo=
 
-style-value-types@5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/style-value-types/-/style-value-types-5.0.0.tgz#76c35f0e579843d523187989da866729411fc8ad"
-  integrity sha512-08yq36Ikn4kx4YU6RD7jWEv27v4V+PUsOGa4n/as8Et3CuODMJQ00ENeAVXAeydX4Z2j1XHZF1K2sX4mGl18fA==
-  dependencies:
-    hey-listen "^1.0.8"
-    tslib "^2.1.0"
-
 styled-jsx@5.0.2:
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/styled-jsx/-/styled-jsx-5.0.2.tgz#ff230fd593b737e9e68b630a694d460425478729"
@@ -1622,15 +1648,15 @@ toidentifier@1.0.0:
   resolved "https://registry.yarnpkg.com/toidentifier/-/toidentifier-1.0.0.tgz#7e1be3470f1e77948bc43d94a3c8f4d7752ba553"
   integrity sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
 
-tslib@^2.1.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.2.0.tgz#fb2c475977e35e241311ede2693cee1ec6698f5c"
-  integrity sha512-gS9GVHRU+RGn5KQM2rllAlR3dU6m7AcpJKdtH8gFvQiC4Otgk98XnmMU+nZenHt/+VhnBPWwgrJsyrdcw6i23w==
-
-tslib@^2.4.0:
+tslib@2.4.0:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.0.tgz#7cecaa7f073ce680a05847aa77be941098f36dc3"
   integrity sha512-d6xOpEDfsi2CZVlPQzGeux8XMwLT9hssAsaPYExaQMuYskwb+x1x7J371tWlbBdWHroy99KnVB6qIkUbs5X3UQ==
+
+tslib@^2.3.1, tslib@^2.4.0:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/tslib/-/tslib-2.4.1.tgz#0d0bfbaac2880b91e22df0768e55be9753a5b17e"
+  integrity sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==
 
 type-fest@^0.20.2:
   version "0.20.2"
