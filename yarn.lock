@@ -560,10 +560,10 @@ forwarded@~0.1.2:
   resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.1.2.tgz#98c23dab1175657b8c0573e8ceccd91b0ff18c84"
   integrity sha1-mMI9qxF1ZXuMBXPozszZGw/xjIQ=
 
-framer-motion@^9.0.4:
-  version "9.0.4"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-9.0.4.tgz#69ff2e64fa40d7e7bdbde88cc4e3772247d622e1"
-  integrity sha512-lZ1+2/WBn8iYRYmeEFpu/X2fI1GNwJL+X21EpnWwKP3vkJsnWBXZF5kHF29wIPk9sBU2xDIpDm9SAVo206bp9A==
+framer-motion@^9.0.7:
+  version "9.0.7"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-9.0.7.tgz#5fe5c1d43e01c458ed4838687901c6c520fe452c"
+  integrity sha512-2n4REUNiu/AsX2fZOp8Z/wnL8XXi2kXrqmCi9UfaydpXgGLnbwq61m9PjOuzECj6iedHNRCvqAMsDIeDzeLSdw==
   dependencies:
     "@motionone/dom" "^10.15.3"
     hey-listen "^1.0.8"
