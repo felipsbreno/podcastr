@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@types/react": "^18.0.28",
-    "@types/node": "^18.15.3",
+    "@types/node": "^18.15.7",
     "json-server": "^0.17.2",
     "typescript": "^5.0.2"
   }
