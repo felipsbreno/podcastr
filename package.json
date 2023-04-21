@@ -19,7 +19,7 @@
     "sass": "^1.59.3"
   },
   "devDependencies": {
-    "@types/react": "^18.0.28",
+    "@types/react": "^18.0.38",
     "@types/node": "^18.15.3",
     "json-server": "^0.17.2",
     "typescript": "^5.0.2"
