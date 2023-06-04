@@ -21,7 +21,7 @@
   "devDependencies": {
     "@types/react": "^18.2.8",
     "@types/node": "^18.15.3",
-    "json-server": "^0.17.2",
+    "json-server": "^0.17.3",
     "typescript": "^5.1.3"
   }
 }
