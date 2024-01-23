@@ -1066,10 +1066,10 @@ forwarded@~0.1.2:
   resolved "https://registry.yarnpkg.com/forwarded/-/forwarded-0.1.2.tgz#98c23dab1175657b8c0573e8ceccd91b0ff18c84"
   integrity sha1-mMI9qxF1ZXuMBXPozszZGw/xjIQ=
 
-framer-motion@^10.13.0:
-  version "10.13.0"
-  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-10.13.0.tgz#0e0d45f693e21d23443317db12cd14c4f8d99cd2"
-  integrity sha512-xKhw9VCizmwEHbopOfluaoVunGHSZyMztGbTvsgOYqCjaKu6qtlwWY1J+6GhL41NY1P157JgEikjDm67XCFnvQ==
+framer-motion@^11.0.2:
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/framer-motion/-/framer-motion-11.0.2.tgz#b4e244afa36c1d90b29b58e93d8e56a7b8e87096"
+  integrity sha512-bLVO4kDavsfzXIObZ6Smzn2119nOiwI0mj99aQpY+3RbNAWR1mm9EiIWYETSbUrIZ8Ij5pPlZqbAwnKj43CKbw==
   dependencies:
     tslib "^2.4.0"
   optionalDependencies:
